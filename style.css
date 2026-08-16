@@ -321,60 +321,7 @@ button{
 
 
 
-@media(max-width:900px){
 
-    header{
-
-        flex-direction:column;
-        gap:25px;
-
-    }
-
-    nav{
-
-        flex-wrap:wrap;
-        justify-content:center;
-
-    }
-
-    .hero{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .hero-text{
-
-        padding:50px;
-
-    }
-
-    .hero-text h1{
-
-        font-size:46px;
-
-    }
-
-    .features{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .gallery{
-
-        grid-template-columns:1fr;
-        padding:40px;
-
-    }
-
-    .intro{
-
-        width:90%;
-
-    }
-
-}
 
 
 .numbers-section{
@@ -597,59 +544,7 @@ button{
 
 
 
-@media(max-width:900px){
 
-    .numbers-section{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .testimonial-section{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .numbers-heading h2{
-
-        width:100%;
-        font-size:32px;
-
-    }
-
-    .stats{
-
-        flex-direction:column;
-        gap:50px;
-
-    }
-
-    .floating-gallery{
-
-        height:auto;
-        display:grid;
-        grid-template-columns:1fr;
-        gap:30px;
-        padding:30px;
-
-    }
-
-    .floating-gallery img{
-
-        position:static;
-        width:100%;
-        height:320px;
-
-    }
-
-    .quote{
-
-        font-size:22px;
-
-    }
-
-}
 
 
 .cta{
@@ -847,41 +742,7 @@ button{
 }
 
 
-@media(max-width:900px){
 
-    .review-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .featured{
-
-        transform:none;
-
-    }
-
-    .cta{
-
-        padding:60px 30px;
-
-    }
-
-    .cta h2{
-
-        width:100%;
-
-        font-size:30px;
-
-    }
-
-    .reviews-sub{
-
-        width:100%;
-
-    }
-
-}
 
 
 .services{
@@ -1100,148 +961,170 @@ footer{
 
 @media (max-width: 992px) {
 
-    header {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    nav {
-        margin-left: 0;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .hero,
     .gallery,
     .numbers-section,
     .testimonial-section {
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
     }
 
     .features,
     .review-grid,
     .services {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:repeat(2, 1fr);
     }
 
     footer {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:repeat(2, 1fr);
     }
 
     .hero-text {
-        padding: 50px;
+        padding:50px;
     }
 
     .hero-text h1 {
-        font-size: 48px;
+        font-size:48px;
     }
 
     .intro {
-        width: 90%;
-        margin: 80px auto;
+        width:90%;
+        margin:80px auto;
     }
 
     .numbers-heading h2,
     .reviews-sub,
     .cta h2 {
-        width: 100%;
+        width:100%;
     }
 
     .stats {
-        flex-direction: column;
-        gap: 40px;
+        flex-direction:column;
+        gap:40px;
     }
 
     .newsletter form {
-        width: 100%;
+        width:100%;
     }
 
 }
 
-@media(max-width:900px){
+@media (max-width:900px) {
 
-    .services{
-
+    .services {
         grid-template-columns:1fr;
-
     }
 
-    .service{
-
+    .service {
         border-right:none !important;
-
         border-bottom:1px solid #eee;
-
     }
 
-    .newsletter form{
-
+    .newsletter form {
         width:100%;
-
         flex-direction:column;
-
     }
 
-    .newsletter button{
-
+    .newsletter button {
         margin:20px 0 0;
-
         width:100%;
-
     }
 
-    footer{
-
+    footer {
         grid-template-columns:1fr;
+    }
 
+    .numbers-section,
+    .testimonial-section {
+        grid-template-columns:1fr;
+    }
+
+    .numbers-heading h2 {
+        width:100%;
+        font-size:32px;
+    }
+
+    .stats {
+        flex-direction:column;
+        gap:50px;
+    }
+
+    .floating-gallery {
+        height:auto;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:30px;
+        padding:30px;
+    }
+
+    .floating-gallery img {
+        position:static;
+        width:100%;
+        height:320px;
+        margin:0;
+    }
+
+    .quote {
+        font-size:22px;
+    }
+
+    .review-grid {
+        grid-template-columns:1fr;
+    }
+
+    .featured {
+        transform:none;
+    }
+
+    .cta {
+        padding:60px 30px;
+    }
+
+    .cta h2 {
+        width:100%;
+        font-size:30px;
+    }
+
+    .reviews-sub {
+        width:100%;
     }
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-.menu-btn{
+    header {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px;
+        position:relative;
+    }
 
-    display:block;
+    .menu-btn {
+        display:block;
+        font-size:30px;
+        cursor:pointer;
+    }
 
-}
+    nav {
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#f7f7f7;
+        padding:20px 0;
+        text-align:center;
+        gap:20px;
+        margin:0;
+        z-index:10;
+    }
 
-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:20px;
-
-    position:relative;
-
-}
-
-nav{
-
-    display:none;
-    flex-direction:column;
-    position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
-    background:#f7f7f7;
-    padding:20px 0;
-    text-align:center;
-    gap:20px;
-    margin-top:0;
-    margin-left:0;
-
-}
-
-nav.active{
-
-    display:flex;
-
-}
+    nav.active {
+        display:flex;
+    }
 
     .hero,
     .gallery,
@@ -1250,15 +1133,15 @@ nav.active{
     .features,
     .review-grid,
     .services,
-    footer{
+    footer {
         grid-template-columns:1fr;
     }
 
-    .hero-text{
+    .hero-text {
         padding:30px;
     }
 
-    .hero-text h1{
+    .hero-text h1 {
         font-size:38px;
     }
 
@@ -1267,32 +1150,32 @@ nav.active{
     .gallery-text h3,
     .reviews h2,
     .newsletter h2,
-    .cta h2{
+    .cta h2 {
         font-size:30px;
     }
 
-    .gallery{
+    .gallery {
         padding:30px;
     }
 
     .gallery-text h3,
     .gallery-text p,
-    .gallery-text a{
+    .gallery-text a {
         margin-left:0;
     }
 
     .img-square,
-    .img-tall{
+    .img-tall {
         width:100%;
         height:auto;
         margin-left:0;
     }
 
-    .bottom{
+    .bottom {
         grid-template-columns:1fr;
     }
 
-    .floating-gallery{
+    .floating-gallery {
         position:static;
         height:auto;
         display:flex;
@@ -1301,37 +1184,33 @@ nav.active{
         padding:20px;
     }
 
-    .floating-gallery img{
+    .floating-gallery img {
         position:static;
         width:100%;
         height:300px;
         margin:0;
     }
 
-    .cta{
+    .cta {
         padding:50px 25px;
     }
 
     .review-card,
-    .service{
+    .service {
         padding:25px;
     }
 
-    .featured{
-        transform:none;
-    }
-
-    .newsletter form{
+    .newsletter form {
         flex-direction:column;
     }
 
-    .newsletter button{
+    .newsletter button {
         width:100%;
         margin:15px 0 0;
     }
 
     .author,
-    .review-user{
+    .review-user {
         flex-direction:column;
         align-items:flex-start;
         gap:15px;
@@ -1339,9 +1218,9 @@ nav.active{
 
 }
 
-@media (max-width:480px){
+@media (max-width:480px) {
 
-    .hero-text h1{
+    .hero-text h1 {
         font-size:30px;
     }
 
@@ -1350,19 +1229,19 @@ nav.active{
     .gallery-text h3,
     .reviews h2,
     .newsletter h2,
-    .cta h2{
+    .cta h2 {
         font-size:24px;
     }
 
-    button{
+    button {
         width:100%;
     }
 
-    .stat h1{
+    .stat h1 {
         font-size:52px;
     }
 
-    .quote{
+    .quote {
         font-size:20px;
     }
 
