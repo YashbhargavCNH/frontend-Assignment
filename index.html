@@ -11,15 +11,25 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <script src="script.js" defer></script>
 
 </head>
 
 <body>
 
+
+    <!-- ================= HEADER ================= -->
+
     <header>
 
-        <div class="logo">Stride</div>
+        <div class="logo">
+            Stride
+        </div>
 
         <div class="menu-btn">
             <i class="fa-solid fa-bars"></i>
@@ -27,618 +37,328 @@
 
         <nav>
 
-            <a href="#">Services</a>
+            <a href="#home">Home</a>
 
-            <a href="#">About us</a>
+            <a href="#services">Services</a>
 
-            <a href="#">Numbers</a>
+            <a href="#about">About Us</a>
 
-            <a href="#">Gallery</a>
+            <a href="#gallery">Gallery</a>
 
-            <a href="#">Work with us</a>
-
-            <a href="#">Testimonials</a>
+            <a href="#contact">Contact</a>
 
         </nav>
 
     </header>
 
 
-    <section class="hero">
+    <!-- ================= HERO ================= -->
 
-        <div class="hero-text">
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">
+                DESIGNING BETTER EXPERIENCES
+            </p>
 
             <h1>
-                Build better
-                <br>
-                digital experiences.
+                Creating digital
+                experiences that
+                move people forward.
             </h1>
 
             <p>
-                Stride helps businesses design and build clear,
-                useful and engaging digital products. From websites
-                to digital experiences, we turn ideas into products
-                people enjoy using.
+                We combine strategy, design and technology
+                to create meaningful digital experiences
+                for modern businesses.
             </p>
 
-            <button>Get started</button>
+            <a href="#contact" class="hero-btn">
+                Get started
+            </a>
 
         </div>
+
 
         <div class="hero-image">
 
-            <img src="img\interior11.jpg" alt="Modern workspace">
+            <img
+                src="img/interior11.jpg"
+                alt="Modern interior"
+            >
 
         </div>
 
     </section>
 
 
-    <section class="intro">
+    <!-- ================= ABOUT / INTRO ================= -->
 
-        <h2>
-            We help ambitious teams turn complex ideas into
-            simple digital experiences that are useful,
-            accessible and built to grow.
-        </h2>
+    <section class="intro" id="about">
+
+        <div class="intro-left">
+
+            <p class="section-label">
+                WHO WE ARE
+            </p>
+
+            <h2>
+                We help ambitious teams
+                turn ideas into experiences.
+            </h2>
+
+        </div>
+
+
+        <div class="intro-right">
+
+            <p>
+                Stride is a digital design and development
+                studio focused on creating simple, useful
+                and engaging experiences.
+            </p>
+
+            <p>
+                From early research and product strategy
+                to interface design and development,
+                we work with teams to build products
+                that people enjoy using.
+            </p>
+
+        </div>
 
     </section>
 
+
+    <!-- ================= FEATURES ================= -->
 
     <section class="features">
 
-        <div class="card">
+        <div class="feature-grid">
 
-            <span>01.</span>
-
-            <h3>
-                Strategy that gives your product
-                a clear direction.
-            </h3>
-
-            <p>
-                We start by understanding your business,
-                your users and the problems you want to solve.
-                This helps us create a practical strategy before
-                design and development begin.
-            </p>
-
-            <a href="#">Learn more</a>
-
-        </div>
-
-
-        <div id="cardline" class="card">
-
-            <span>02.</span>
-
-            <h3>
-                Design that makes digital products
-                easier to understand and use.
-            </h3>
-
-            <p>
-                We create user interfaces that are simple,
-                consistent and focused on the people using them.
-                Every screen is designed with clarity and purpose.
-            </p>
-
-            <a href="#">Learn more</a>
-
-        </div>
-
-
-        <div id="cardline2" class="card">
-
-            <span>03.</span>
-
-            <h3>
-                Technology that helps your product
-                perform and scale.
-            </h3>
-
-            <p>
-                We build responsive and reliable digital
-                experiences using modern technologies and
-                development practices that support long-term growth.
-            </p>
-
-            <a href="#">Learn more</a>
+            <!-- Features generated by JavaScript -->
 
         </div>
 
     </section>
 
 
-    <section class="gallery">
+    <!-- ================= GALLERY ================= -->
 
-        <div class="images">
+    <section class="gallery" id="gallery">
 
-            <img src="img/people15.jpg"
-                class="img-wide"
-                alt="Team working together">
+        <div class="gallery-images">
 
-            <div class="bottom">
-
-                <img src="img\interior42.jpg"
-                    class="img-square"
-                    alt="Creative workspace">
-
-                <img src="img\people4.jpg"
-                    class="img-tall"
-                    alt="Team collaboration">
-
-            </div>
+            <!-- Gallery generated by JavaScript -->
 
         </div>
 
 
-        <div class="gallery-text">
+        <div class="gallery-content">
 
-            <h3>
-                Good digital products are created
-                through collaboration, research
-                and thoughtful design.
-            </h3>
-
-            <p>
-                We work closely with our clients from the first
-                idea to the final product, making sure every
-                decision has a clear purpose.
+            <p class="section-label">
+                OUR WORK
             </p>
 
-            <a href="#">Explore our work</a>
+            <h2>
+                Designing spaces,
+                products and experiences
+                that feel effortless.
+            </h2>
+
+            <p>
+                We believe good design should feel natural.
+                Every detail has a purpose, from the first
+                interaction to the final experience.
+            </p>
+
+            <a href="#contact" class="text-link">
+                Explore our work
+                <span>→</span>
+            </a>
 
         </div>
 
     </section>
 
+
+    <!-- ================= NUMBERS ================= -->
 
     <section class="numbers-section">
 
-        <div class="section-title">
+        <div class="number-item">
 
-            <span></span>
+            <h2>
+                95%
+            </h2>
 
-            <h3>Our numbers</h3>
+            <p>
+                Client satisfaction
+            </p>
 
         </div>
 
 
-        <div class="numbers-content">
+        <div class="number-item">
 
-            <div class="numbers-heading">
+            <h2>
+                +120
+            </h2>
 
-                <h2>
-                    We measure our work by the value
-                    we create for the businesses and
-                    people we work with.
-                </h2>
-
-            </div>
-
-
-            <div class="stats">
-
-                <div class="stat">
-
-                    <h1>95%</h1>
-
-                    <p>
-                        Of our clients continue working with us
-                        on new projects after completing their
-                        first digital product.
-                    </p>
-
-                </div>
-
-
-                <div class="stat">
-
-                    <h1>+120</h1>
-
-                    <p>
-                        Digital projects delivered across
-                        websites, product interfaces and
-                        customer experiences.
-                    </p>
-
-                </div>
-
-            </div>
+            <p>
+                Projects completed
+            </p>
 
         </div>
 
     </section>
 
+
+    <!-- ================= FLOATING GALLERY ================= -->
 
     <section class="floating-gallery">
 
-        <img src="img\interior37.jpg"
-            class="small-card"
-            alt="Modern office">
-
-        <img src="img\people1.jpg"
-            class="medium-card"
-            alt="Team meeting">
-
-        <img src="img\people2.jpg"
-            class="large-card"
-            alt="Creative team">
-
-        <img src="img/interior29.jpg"
-            class="tall-card"
-            alt="Modern workspace">
+        <!-- Floating gallery generated by JavaScript -->
 
     </section>
 
+
+    <!-- ================= TESTIMONIAL ================= -->
 
     <section class="testimonial-section">
 
-        <div class="section-title">
+        <div class="testimonial-image">
 
-            <span></span>
-
-            <h3>What our clients say</h3>
+            <img
+                src="img/person11.jpg"
+                alt="Client testimonial"
+            >
 
         </div>
 
 
-        <div class="testimonial">
+        <div class="testimonial-content">
 
-            <p class="quote">
-
-                "Stride helped us take a complicated product
-                and turn it into an experience that our customers
-                could understand immediately. They were thoughtful
-                throughout the process and always focused on solving
-                the right problems."
-
+            <p class="section-label">
+                CLIENT STORY
             </p>
 
+            <blockquote>
+                "Stride helped us turn a complicated
+                idea into something our customers
+                could understand immediately."
+            </blockquote>
 
-            <div class="author">
+            <p class="testimonial-name">
+                David Miller
+            </p>
 
-                <img src="img\person11.jpg"
-                    alt="David Miller">
-
-                <div>
-
-                    <h4>David Miller</h4>
-
-                    <span>Product Director, Northstar</span>
-
-                </div>
-
-            </div>
+            <p class="testimonial-role">
+                Founder, Northline
+            </p>
 
         </div>
 
     </section>
 
 
-    <section class="cta">
+    <!-- ================= CTA ================= -->
 
-        <p class="cta-small">
-            Let's build something useful together.
-        </p>
+    <section class="cta" id="contact">
 
-        <h3 style="font-weight: normal;">
+        <div>
 
-            Have a product idea, a website that needs
-            improvement, or a digital experience that
-            is not performing as expected?
+            <p class="section-label">
+                LET'S WORK TOGETHER
+            </p>
 
-            <br>
+            <h2>
+                Have an idea?
+                Let's build something meaningful.
+            </h2>
 
-            Tell us what you're working on and we'll
-            help you find the right way forward.
+        </div>
 
-        </h3>
 
-        <button>Start a conversation</button>
+        <a href="mailto:hello@stride.com" class="cta-btn">
+            Start a conversation
+        </a>
 
     </section>
 
+
+    <!-- ================= REVIEWS ================= -->
 
     <section class="reviews">
 
-        <h2>
-            Trusted by teams around the world
-        </h2>
+        <div class="reviews-heading">
 
-        <p class="reviews-sub">
+            <p class="section-label">
+                CLIENT REVIEWS
+            </p>
 
-            We work with startups, growing businesses
-            and established companies to create digital
-            products that deliver real value.
+            <h2>
+                Trusted by teams
+                around the world
+            </h2>
 
-        </p>
+            <p>
+                Here's what some of the teams we've worked
+                with have to say about their experience.
+            </p>
+
+        </div>
 
 
         <div class="review-grid">
 
-
-            <div class="review-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-
-                    "Stride brought structure to a project
-                    that had been difficult to manage. Their
-                    research and design process helped our
-                    team make better decisions."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person9.jpg"
-                        alt="Sarah Williams">
-
-                    <div>
-
-                        <h4>Sarah Williams</h4>
-
-                        <span>Head of Product, Nova</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="review-card featured">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-
-                    "The biggest improvement was how much
-                    easier our product became to use. Stride
-                    understood our users and translated their
-                    needs into a much clearer interface."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person3.jpg"
-                        alt="Michael Chen">
-
-                    <div>
-
-                        <h4>Michael Chen</h4>
-
-                        <span>CEO, Vertex Labs</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="review-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-
-                    "They were reliable, easy to communicate
-                    with and very focused on the details.
-                    The final website was faster, clearer
-                    and much easier for our customers to use."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person8.jpg"
-                        alt="Daniel Carter">
-
-                    <div>
-
-                        <h4>Daniel Carter</h4>
-
-                        <span>Marketing Director, Forma</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="review-card">
-
-                <div class="stars">
-                    ★★★★☆
-                </div>
-
-                <p>
-
-                    "Stride helped us redesign our customer
-                    journey from the ground up. We now have
-                    a much clearer understanding of what our
-                    users need at every stage."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person14.jpg"
-                        alt="Emma Johnson">
-
-                    <div>
-
-                        <h4>Emma Johnson</h4>
-
-                        <span>Operations Lead, Atlas</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="review-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-
-                    "The team understood our business quickly
-                    and translated our goals into a website
-                    that feels professional, modern and easy
-                    to navigate."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person13.jpg"
-                        alt="Alex Morgan">
-
-                    <div>
-
-                        <h4>Alex Morgan</h4>
-
-                        <span>Founder, Brightline</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="review-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-
-                    "What stood out most was their attention
-                    to the user experience. They did not just
-                    make the product look better; they made
-                    it work better."
-
-                </p>
-
-
-                <div class="review-user">
-
-                    <img src="img/person18.jpg"
-                        alt="Olivia Smith">
-
-                    <div>
-
-                        <h4>Olivia Smith</h4>
-
-                        <span>Digital Manager, Northpoint</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+            <!-- Reviews generated by JavaScript -->
 
         </div>
 
     </section>
 
 
-    <section class="services">
+    <!-- ================= SERVICES ================= -->
 
+    <section class="services" id="services">
 
-        <div class="service">
-
-            <h3>
-                🎯 Product Strategy
-            </h3>
-
-            <p>
-
-                We help teams define their product goals,
-                understand their users and prioritize the
-                features that create the most value.
-
-            </p>
-
-        </div>
-
-
-        <div class="service">
-
-            <h3>
-                ✦ UI/UX Design
-            </h3>
-
-            <p>
-
-                We design clear and accessible interfaces
-                for websites, dashboards and digital products,
-                from early wireframes to polished final designs.
-
-            </p>
-
-        </div>
-
-
-        <div class="service">
-
-            <h3>
-                💻 Web Development
-            </h3>
-
-            <p>
-
-                We build responsive websites and digital
-                experiences that perform well across
-                desktops, tablets and mobile devices.
-
-            </p>
-
-        </div>
-
+        <!-- Services generated by JavaScript -->
 
     </section>
 
+
+    <!-- ================= NEWSLETTER ================= -->
 
     <section class="newsletter">
 
-        <h2>
+        <div class="newsletter-content">
 
-            Stay up to date with
-            <strong>useful digital insights.</strong>
+            <p class="section-label">
+                STAY IN THE LOOP
+            </p>
 
-        </h2>
+            <h2>
+                Get design insights
+                in your inbox.
+            </h2>
+
+            <p>
+                Subscribe to receive occasional updates,
+                ideas and useful design resources.
+            </p>
+
+        </div>
 
 
-        <form>
+        <form class="newsletter-form">
 
-            <input type="email"
-                placeholder="Enter your email address">
+            <input
+                type="email"
+                placeholder="Enter your email"
+                required
+            >
 
             <button type="submit">
                 Subscribe
@@ -646,31 +366,25 @@
 
         </form>
 
+
+        <p class="newsletter-message"></p>
+
     </section>
 
 
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
-
-        <div class="footer-column">
+        <div class="footer-brand">
 
             <h3>
                 Stride
             </h3>
 
             <p>
-
-                A digital design and development
-                studio helping businesses create
-                better digital experiences.
-
-                <br><br>
-
-                Bengaluru, India
-                <br>
-
-                P: +91 80 4567 8900
-
+                Creating meaningful digital
+                experiences for modern teams.
             </p>
 
         </div>
@@ -682,21 +396,11 @@
                 Company
             </h4>
 
-            <a href="#">
-                About us
-            </a>
+            <div class="company-links">
 
-            <a href="#">
-                Our work
-            </a>
+                <!-- Company links generated by JavaScript -->
 
-            <a href="#">
-                Careers
-            </a>
-
-            <a href="#">
-                Contact
-            </a>
+            </div>
 
         </div>
 
@@ -707,25 +411,11 @@
                 Services
             </h4>
 
-            <a href="#">
-                Product Strategy
-            </a>
+            <div class="footer-service-links">
 
-            <a href="#">
-                UX Research
-            </a>
+                <!-- Service links generated by JavaScript -->
 
-            <a href="#">
-                UI/UX Design
-            </a>
-
-            <a href="#">
-                Web Development
-            </a>
-
-            <a href="#">
-                Design Systems
-            </a>
+            </div>
 
         </div>
 
@@ -736,32 +426,25 @@
                 Resources
             </h4>
 
-            <a href="#">
-                Case Studies
-            </a>
+            <div class="resource-links">
 
-            <a href="#">
-                Insights
-            </a>
+                <!-- Resource links generated by JavaScript -->
 
-            <a href="#">
-                Privacy Policy
-            </a>
+            </div>
 
         </div>
-
 
     </footer>
 
 
     <div class="copyright">
 
-        © 2026 Stride. All rights reserved.
+        <p>
+            © 2026 Stride. All rights reserved.
+        </p>
 
     </div>
 
-
-    <script src="script.js"></script>
 
 </body>
 
