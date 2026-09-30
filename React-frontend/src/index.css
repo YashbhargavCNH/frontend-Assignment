@@ -85,10 +85,13 @@ nav a.active {
     display: none;
 
     font-size: 30px;
-
     cursor: pointer;
-}
 
+    border: none;
+    background: none;
+    color: #111;
+    padding: 0;
+}
 
 /* =========================================================
    SECTION SCROLL
